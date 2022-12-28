@@ -1,9 +1,5 @@
 package org.springframework.test.ioc.bean;
 
-/**
- * @author derekyi
- * @date 2020/11/24
- */
 public class Person {
 
 	private String name;
