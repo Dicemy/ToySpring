@@ -1,4 +1,4 @@
-package org.springframework.beans.factory.service;
+package org.springframework.test.ioc.service;
 
 /**
  * @author derekyi

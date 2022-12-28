@@ -1,4 +1,4 @@
-package org.springframework.beans.factory.bean;
+package org.springframework.test.ioc.bean;
 
 /**
  * @author derekyi

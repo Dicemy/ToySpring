@@ -1,4 +1,4 @@
-package org.springframework.beans.factory;
+package org.springframework.test.ioc;
 
 import cn.hutool.core.io.IoUtil;
 import org.junit.Test;

@@ -6,8 +6,6 @@ import org.springframework.beans.PropertyValue;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanReference;
 
-import java.lang.reflect.Method;
-
 public abstract class AbstractAutowireCapableBeanFactory extends AbstractBeanFactory{
     private InstantiationStrategy instantiationStrategy = new SimpleInstantiationStrategy();
     @Override
