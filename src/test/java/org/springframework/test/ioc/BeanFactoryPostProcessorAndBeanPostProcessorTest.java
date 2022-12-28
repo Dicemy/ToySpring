@@ -12,7 +12,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class BeanFactoryPostProcessorAndBeanPostProcessorTest {
 
-	@Test
+//	@Test
 	public void testBeanFactoryPostProcessor() throws Exception {
 		DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
 		XmlBeanDefinitionReader beanDefinitionReader = new XmlBeanDefinitionReader(beanFactory);

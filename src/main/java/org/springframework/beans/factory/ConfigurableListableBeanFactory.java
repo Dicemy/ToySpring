@@ -2,6 +2,7 @@ package org.springframework.beans.factory;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.config.BeanDefinition;
+import org.springframework.beans.factory.config.BeanPostProcessor;
 
 public interface ConfigurableListableBeanFactory extends ListableBeanFactory {
 
@@ -20,4 +21,6 @@ public interface ConfigurableListableBeanFactory extends ListableBeanFactory {
 	 * @throws BeansException
 	 */
 	void preInstantiateSingletons() throws BeansException;
+
+	void addBeanPostProcessor(BeanPostProcessor beanPostProcessor);
 }
